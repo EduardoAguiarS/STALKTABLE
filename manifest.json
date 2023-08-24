@@ -3,7 +3,11 @@
   "version": "1.0",
   "description": "Spelltable Spectate",
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_title": "Stalktable",
+    "default_icon": {
+      "128": "./img/icon128.png"
+    }
   },
   "permissions": [
     "tabs"
