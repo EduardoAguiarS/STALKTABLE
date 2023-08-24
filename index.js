@@ -1,8 +1,9 @@
 // Get Element URL
 const button = document.getElementById('spectate');
 
-chrome.tabs.getSelected(null, function(tab) {
-  setUrl(tab.url);
+chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+  let tablink = tabs[0].url;
+  setUrl(tablink);
 });
 
 function setUrl(tablink) {
