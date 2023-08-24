@@ -2,7 +2,8 @@
   "name": "Stalktable",
   "version": "1.0",
   "description": "Spelltable Spectate",
-  "browser_action": {
+  "manifest_version": 3,
+  "action": {
     "default_popup": "index.html",
     "default_title": "Stalktable",
     "default_icon": {
@@ -16,7 +17,5 @@
     "16": "./img/icon16.png",
     "48": "./img/icon48.png",
     "128": "./img/icon128.png"
-  },
-
-  "manifest_version": 2
+  }
 }
