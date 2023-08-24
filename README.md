@@ -1,4 +1,8 @@
-## Stalktable ## [Alt text](./img/icon128.png) 
+<div align="center">
+  <img src="./img/icon128.png" alt=""/>
+  </br>
+  <h1 align="center">Stalktable</h1>
+</div>
 Stalktable is a simple extension created to make it easier to spectate rooms on SpellTable.
 
 How to install an extension in Chrome in developer mode:
