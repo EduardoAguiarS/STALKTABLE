@@ -12,8 +12,6 @@ How to install an extension in Chrome in developer mode:
 4. Click on "Load unpacked" and select the project folder![Alt text](image-1.png)
 5. That's it! The extension is already installed and ready to use.
 </br>
-</br>
-</br>
 
 ***Português:*** </br>
 Stalktable é uma extensão simples criada para facilitar a visualização de salas no SpellTable.
