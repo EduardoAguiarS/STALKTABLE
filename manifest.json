@@ -1,0 +1,18 @@
+{
+  "name": "Stalktable",
+  "version": "1.0",
+  "description": "Spelltable Spectate",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "./img/icon16.png",
+    "48": "./img/icon48.png",
+    "128": "./img/icon128.png"
+  },
+
+  "manifest_version": 2
+}
