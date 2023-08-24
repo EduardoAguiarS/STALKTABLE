@@ -9,8 +9,10 @@
 body {
   font-family: 'Roboto Slab', serif;
   background-color: #1a202c;
-  width: 280px;
-  height: 380px;
+  min-width: 380px;
+  height: 100%;
+  border: 2px solid #765bff;
+  border-radius: 10px;
 }
 
 h1 {
@@ -29,6 +31,7 @@ main {
   height: 100%;
   gap: 1rem;
   padding: 0 1rem;
+  margin-bottom: 40px;
 }
 
 img {
@@ -46,6 +49,8 @@ button {
   font-weight: 600;
   line-height: 0;
   
+  display: block;
+  width: 100%;
 
   transition: background 0.2s ease-in-out;
 }
